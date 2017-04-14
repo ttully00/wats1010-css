@@ -1,6 +1,41 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+body {
+  background-image: url("images/Xanadu_on_Map_of_Asia.JPG");
+  font-family: serif;
+  
+}
+
+h1, h2, h3, h4, h5{
+  font-family: sans-serifs;
+    
+}
+ul
+{list-style-type: none:
+}
+header.page-header {
+  border: solid 1px black;
+  padding: 1ren;
+}
+.page-header h1{
+  margin-bottom: ;
+}
+.page-header p {
+  margin-top:0;
+}
+.page-header {font-size: medium;}
+aside.more-info{
+  border: solid 1px black;
+}
+aside.more-info img {
+  width: 150px;
+  height: auto;  
+}
+section#content {
+  border: solid 1px black;
+}
+
+footer.page-footer {
+  border: solid 1px black;
 }
